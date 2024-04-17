@@ -1,0 +1,10 @@
+spring:
+   datasource:
+      username: fitness_tracker
+      password: fitness_tracker
+      url: jdbc:mysql://localhost:3306/fitness_tracker
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true      
